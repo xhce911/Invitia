@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import  Intro from '../src/components/intro';
+import Lugar from '../src/components/lugar';
 
 function App() {
   return (
@@ -9,9 +11,7 @@ function App() {
         <nav class="navbar">
           <div class="container">
             <div class="navbar-brand">
-              <a class="navbar-item">
-                <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo"></img>
-              </a>
+             
               <span class="navbar-burger" data-target="navbarMenuHeroB">
                 <span></span>
                 <span></span>
@@ -21,22 +21,18 @@ function App() {
             <div id="navbarMenuHeroB" class="navbar-menu">
               <div class="navbar-end">
                 <a class="navbar-item is-active">
-                  Home
+                  Portada
                 </a>
                 <a class="navbar-item">
-                  Examples
+                  Padres
                 </a>
                 <a class="navbar-item">
-                  Documentation
+                  Lugar
                 </a>
-                <span class="navbar-item">
-                  <a class="button is-info is-inverted">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Download</span>
-                  </a>
-                </span>
+                <a class="navbar-item">
+                  Regalos
+                </a>
+                
               </div>
             </div>
           </div>
@@ -45,31 +41,20 @@ function App() {
 
       <div class="hero-body">
         <div class="container has-text-centered">
-          <p class="title">
-            Title
+          <p class="pacific title">
+            Mi bautizo
           </p>
-          <p class="subtitle">
-            Subtitle
+          <p class="urbanist subtitle">
+            23 Julio  2023
           </p>
         </div>
       </div>
 
      
     </section>
-    <section id="parallax-1" class="hero is-large ">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns has-text-centered">
-            <div class="column is-half is-offset-one-quarter">
-              <h1 class="title is-1 ">Lorem Ipsum</h1>
-              
-              <h2 class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit explicabo amet magni illum eum voluptate! Eveniet voluptatem nam magnam necessitatibus.</h2>
-              <a href="#" class="button is-white is-inverted">Next&ensp;<i class="fad fa-chevron-right"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <Intro></Intro>
+    <Lugar></Lugar>
+    
     </>
   );
 }
