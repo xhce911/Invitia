@@ -5,20 +5,18 @@ export default class lugar extends Component {
   render() {
     return (
       <>
-      <section class="hero  is-fullheight">
+      <section class="hero  is-fullheight ptrn">
         <div class="hero-body ">
             <div class="container has-text-centered ">
-            
-                <p class="title-p pacific">
+                <p class="title-p pacific green">
                    Ceremonia Religiosa
                 </p>
-                <hr></hr>
                 <p class="subtitle urbanist" >
                   Templo del espíritu santo 
                 </p>
-                <b><p className='urbanist date'>12:00 Hrs</p></b>
+                <b><p className='urbanist date py-3'>12:00 Hrs</p></b>
                 <img src={location} className='locationimg my-2'></img>  
-                <p class="title pacific my-6 title-b">
+                <p class="title pacific my-6 title-b green">
                    Recepción
                 </p>
                 <p class="subtitle urbanist" >

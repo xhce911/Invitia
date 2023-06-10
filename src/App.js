@@ -1,12 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
 import  Intro from '../src/components/intro';
 import Lugar from '../src/components/lugar';
+import Txt from '../src/assets/text.png';
+import Gift from '../src/components/gift';
 
 function App() {
   return (
     <>
-    <section class="hero is-info is-large">
+    <section class="hero ptrn is-large">
       <div class="hero-head">
         <nav class="navbar">
           <div class="container">
@@ -24,7 +26,7 @@ function App() {
                   Portada
                 </a>
                 <a class="navbar-item">
-                  Padres
+                  Padres y Padrinos
                 </a>
                 <a class="navbar-item">
                   Lugar
@@ -39,13 +41,11 @@ function App() {
         </nav>
       </div>
 
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <p class="pacific title">
-            Mi bautizo
-          </p>
-          <p class="urbanist subtitle">
-            23 Julio  2023
+      <div className="hero-body">
+        <div className="container has-text-centered">
+          <img src={Txt} className='bbynm'></img>
+          <p className="urbanist sub">
+            Sábado · Julio · 23 · 2023
           </p>
         </div>
       </div>
@@ -54,6 +54,7 @@ function App() {
     </section>
     <Intro></Intro>
     <Lugar></Lugar>
+    <Gift></Gift>
     
     </>
   );
