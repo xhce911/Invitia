@@ -4,34 +4,36 @@ import  Intro from '../src/components/intro';
 import Lugar from '../src/components/lugar';
 import Txt from '../src/assets/text.png';
 import Gift from '../src/components/gift';
+import Ending from './components/ending';
+
 
 function App() {
   return (
     <>
-    <section class="hero ptrn is-large">
-      <div class="hero-head">
-        <nav class="navbar">
-          <div class="container">
-            <div class="navbar-brand">
+    <section className="hero ptrn is-large">
+      <div className="hero-head">
+        <nav className="navbar">
+          <div className="container">
+            <div className="navbar-brand">
              
-              <span class="navbar-burger" data-target="navbarMenuHeroB">
+              <span className="navbar-burger" data-target="navbarMenuHeroB">
                 <span></span>
                 <span></span>
                 <span></span>
               </span>
             </div>
-            <div id="navbarMenuHeroB" class="navbar-menu">
-              <div class="navbar-end">
-                <a class="navbar-item is-active">
+            <div id="navbarMenuHeroB" className="navbar-menu">
+              <div className="navbar-end">
+                <a className="navbar-item is-active">
                   Portada
                 </a>
-                <a class="navbar-item">
+                <a className="navbar-item">
                   Padres y Padrinos
                 </a>
-                <a class="navbar-item">
+                <a className="navbar-item">
                   Lugar
                 </a>
-                <a class="navbar-item">
+                <a className="navbar-item">
                   Regalos
                 </a>
                 
@@ -43,8 +45,8 @@ function App() {
 
       <div className="hero-body">
         <div className="container has-text-centered">
-          <img src={Txt} className='bbynm'></img>
-          <p className="urbanist sub">
+          <img src={Txt} className='bbynm  animate__animated animate__fadeInUp animate__delay-2s'></img>
+          <p className="urbanist sub animate__animated animate__fadeInDown animate__delay-2s">
             Sábado · Julio · 23 · 2023
           </p>
         </div>
@@ -55,6 +57,7 @@ function App() {
     <Intro></Intro>
     <Lugar></Lugar>
     <Gift></Gift>
+    <Ending></Ending>
     
     </>
   );

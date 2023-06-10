@@ -7,8 +7,8 @@ export default class gift extends Component {
       <>
         <div className='container is-fluid'>
         <div className='container'>
-        <div class="columns is-vcentered has-text-centered">
-            <div class="column is-half" >
+        <div class="columns is-vcentered has-text-centered gifta">
+            <div class="column is-half " >
                 <div className='hero is-large'>
                     <div className='hero-body'>
                         <h1 class="title pacific is-1 green">Mesa de Regalos</h1>
