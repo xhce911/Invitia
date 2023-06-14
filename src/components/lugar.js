@@ -12,7 +12,7 @@ export default class lugar extends Component {
                    Ceremonia Religiosa
                 </p>
                 <p class="subtitle urbanist" >
-                  Templo del espíritu santo 
+                  Parroquia preciosa Sangre de Cristo
                 </p>
                 <b><p className='urbanist date py-3'>12:00 Hrs</p></b>
                 <img src={location} className='locationimg my-2'></img>  

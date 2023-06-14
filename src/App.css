@@ -30,8 +30,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
-
 }
 
 .date{
@@ -47,13 +45,13 @@
 .ptrn{
   background-image: url('../src/assets/pattern.png');
   background-repeat: repeat;
-  background-size: 'cover';
+  background-size: 40%;
 }
 
 .imgbby{
   padding-top: 5%;
-  width: 500px;
-  height: 520px;
+  width: 400px;
+  height: auto;
 }
 
 .bbynm{
@@ -70,11 +68,12 @@
 }
 
 .glass{
-  background: rgba(255, 255, 255, 0.23);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5.1px);
-  -webkit-backdrop-filter: blur(5.1px);
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.3);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.3px);
+-webkit-backdrop-filter: blur(3.3px);
 }
 
 
@@ -83,7 +82,7 @@
   height: 100vh;
 }
 .cross{
-  width: 200px;
+  width: 100px;
   height: auto;
 }
 /** colors: 2b9b4c green **/ 

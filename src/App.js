@@ -10,7 +10,7 @@ import Ending from './components/ending';
 function App() {
   return (
     <>
-    <section className="hero ptrn is-large">
+    <section className="hero ptrn is-fullheight">
       <div className="hero-head">
         <nav className="navbar">
           <div className="container">

@@ -4,7 +4,7 @@ export default class ending extends Component {
   render() {
     return (
       <>
-        <div className='container is fluid gifta'>
+        <div className='container is-fluid ptrn gifta'>
             <div className='hero is-medium has-text-centered'>
                    <div className='hero-body'>
                     <h1 className='pacific green'>Agradecemos su asistencia</h1>
