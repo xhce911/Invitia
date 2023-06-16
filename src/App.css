@@ -1,10 +1,24 @@
+@import url('https://fonts.cdnfonts.com/css/futura-std-4');
+
+
+
 .pacific{
   font-family: 'Pacifico' ;
   font-size: 25pt;
 }
 
+.futura{
+  font-family: 'Futura Std', sans-serif;
+  font-size: 20pt;
+
+}
+
 .white{
   color:#FFFF;
+}
+
+.gray{
+  color: #807467;
 }
 
 .high{
@@ -24,8 +38,32 @@
   font-size: 30pt;
 }
 
+#parallax-1 {
+  background: url('../src/assets/chaak/1_1.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 #parallax-2 {
-  background: url(https://source.unsplash.com/featured/?church);
+  background: url('../src/assets/chaak/2.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax-3 {
+  background: url('../src/assets/chaak/3.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax-4 {
+  background: url('../src/assets/chaak/4.jpeg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
-import Marina from '../assets/marina.png'
+import Sears from '../assets/sears.png'
+import Icono from '../assets/mesa_r.png'
+
 
 export default class gift extends Component {
+
   render() {
     return (
       <>
@@ -11,19 +14,18 @@ export default class gift extends Component {
             <div class="column is-half " >
                 <div className='hero is-large'>
                     <div className='hero-body'>
-                        <h1 class="title pacific is-1 green">Mesa de Regalos</h1>
-                        <img src={Marina}></img>
-                        <h2 className='urbanist'>Código de mesa</h2>
+                        <img alt='Mesa de Regalos' src={Icono}></img>
+                        <button className='button is-primary' >Mesa de Regalos</button>
                     </div>
                 </div>
             </div>
             <div class="column is-half">
             <div className='hero is-large'>
                     <div className='hero-body'>
-                    <h1 class="title pacific is-1 green">Opciones de regalo</h1>
-                        <h3 class="title pacific is-3 green">Lluvia de sobres</h3>
+                    
+                        <h1 class=" pacific is-3 green">Lluvia de sobres</h1>
                         
-                        <h2 className='urbanist'>Datos bancarios</h2>
+                        <h2 className='futura'>Datos bancarios</h2>
                     </div>
                 </div>
             </div>
