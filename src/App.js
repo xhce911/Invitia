@@ -7,6 +7,7 @@ import Gift from '../src/components/gift';
 import Ending from './components/ending';
 import Baby from '../src/assets/baby.png'
 import Cross from '../src/assets/cross.png'
+import date from '../src/assets/fecha.png'
 
 
 
@@ -18,7 +19,7 @@ function App() {
         <nav className="navbar is-fixed-top my-4">
           <div className="container">
             <div className="navbar-brand">
-              <a className="pacific green navbar-item" href="../">
+              <a className="pacific green navbar-item hashtag" href="../">
                 #Baltachaak
               </a>
               <span className="navbar-burger" data-target="navbarMenuHeroB">
@@ -50,26 +51,31 @@ function App() {
 
       <section id="" className="hero is-fullheight ptrn my-6">
         <div class="hero-body">
-          <div class="container glass">
-            <div className="container has-text-centered my-6">
-              <img src={Txt} className='bbynm  animate__animated animate__fadeInUp '></img>
-              <p className="futura sub animate__animated animate__fadeInDown ">
-                Sábado · Julio · 23 · 2023
-              </p>
-            </div> 
+          <div class="container glass is-fluid is-desktop">
+            <div className="columns has-text-centered my-6">
+              <div className='column is-full '>
+                <img src={Txt} alt='' className='bbynm  animate__animated animate__fadeInUp' ></img>
+                <br></br>
+                <img src={date} alt='' className='date animate__animated animate__fadeInDown'></img>
+              </div>
+              
+            </div>
             <div class="columns has-text-centered" >
               <div class="column is-half is-offset-one-quarter">
-                <img src={Cross} className='cross animate__animated animate__fadeInUp '></img>
-                <i><h2 class="subtitle futura                                                                gray">“Queremos compartir contigo el bautizo de nuestro pequeño: ”</h2></i>
-                <img src={Baby} className='imgbby animate__animated animate__fadeInDown'></img>
+                <img src={Cross} alt="" className='cross animate__animated animate__fadeInUp '></img>
+                <i><h2 class="subtitle futura gray">“Queremos compartir contigo el bautizo de nuestro pequeño: ”</h2></i>
+                <img src={Baby} alt=""className='imgbby animate__animated animate__fadeInDown'></img>
                 <br></br>
-                
-                <hr class="content-divider"></hr>
+                <div className='is-full'>
+                  <h2 class="title pacific mb-4 green">Padrino de presentación</h2>
+                  <h3 class="futura gray">Edgar Ulises Tapia Amezcua</h3>
+                </div>
               </div>
             </div>
-
-            <div className='columns  is-desktop'>
-              <div className='column is-half has-text-centered' >
+           
+            <div className='columns has-text-centered'>
+              
+              <div className='column is-half ' >
                 <h1 class="title pacific is-1 green">Mis papis</h1>
                 <br></br>
                 <h2 class="subtitle futura gray" >Sarai Rosario Ramírez Villatoro</h2>
@@ -78,7 +84,7 @@ function App() {
                 <hr class="content-divider mx-6"></hr>
               </div>
               
-              <div className='column is-half has-text-centered' >
+              <div className='column is-half ' >
                 <h1 class="title pacific is-1 green">Mis padrinos</h1>
                 <br></br>
                 <h2 class="subtitle futura gray">Guadalupe Mejía Galván</h2>

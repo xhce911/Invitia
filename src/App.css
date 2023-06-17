@@ -3,14 +3,12 @@
 
 
 .pacific{
-  font-family: 'Pacifico' ;
-  font-size: 25pt;
+  font-family: 'Pacifico';
 }
 
 .futura{
   font-family: 'Futura Std', sans-serif;
-  font-size: 20pt;
-
+  font-size: 16pt;
 }
 
 .white{
@@ -43,7 +41,7 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 #parallax-2 {
@@ -65,7 +63,7 @@
 #parallax-4 {
   background: url('../src/assets/chaak/4.jpeg');
   background-attachment: fixed;
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -88,12 +86,12 @@
 
 .imgbby{
   padding-top: 5%;
-  width: 400px;
+  width: 280px;
   height: auto;
 }
 
 .bbynm{
-  width: 550px;
+  width: 250px;
   height: auto;
 }
 
@@ -114,13 +112,19 @@ backdrop-filter: blur(3.3px);
 -webkit-backdrop-filter: blur(3.3px);
 }
 
-
-
 .gifta{
   height: 100vh;
 }
 .cross{
   width: 100px;
   height: auto;
+}
+
+.hashtag{
+  font-size: 20pt;
+}
+
+.date{
+  width: 200px;
 }
 /** colors: 2b9b4c green **/ 
