@@ -1,6 +1,17 @@
 @import url('https://fonts.cdnfonts.com/css/futura-std-4');
 
-
+html {
+  scroll-behavior: smooth;
+}
+.logo{
+  width: 120px;
+}
+.thumb{
+  width: 250px;
+}
+.gift{
+  width:350px
+}
 
 .pacific{
   font-family: 'Pacifico';
@@ -127,4 +138,29 @@ backdrop-filter: blur(3.3px);
 .date{
   width: 200px;
 }
+
+.envelope{
+  width: 150px;
+  fill: #2b9b4c;
+}
 /** colors: 2b9b4c green **/ 
+
+#Lugar{
+  height: auto;
+  width: 100%;
+}
+
+#Padres{
+  height: auto;
+  width: 100%;
+}
+
+#Regalos{
+  height:  auto;
+  width: 100%;
+}
+
+#Confirmacion{
+  height:  auto;
+  width: 100%;
+}
