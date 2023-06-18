@@ -35,26 +35,7 @@ function App() {
               <span className="navbar-burger" data-target="navbarMenuHeroB">
               </span>
             </div>
-            <div id="navbarMenuHeroB" className="navbar-menu">
-              <div className="navbar-end">
-                <a className="navbar-item is-active" href="#Home">
-                  Portada
-                </a>
-                <a className="navbar-item"  href="#Padres">
-                  Padres y Padrinos
-                </a>
-                <a className="navbar-item" href="#Lugar">
-                  Lugar
-                </a>
-                <a className="navbar-item" href="#Regalos">
-                  Regalos
-                </a>
-                <a className="navbar-item" href="#Regalos">
-                  Confirmación
-                </a>
-                
-              </div>
-            </div>
+          
           </div>
         </nav>
       </div>
@@ -82,7 +63,7 @@ function App() {
           </div>
         </div>
       </section>
-      
+
       <section class="container glass is-fluid  my-6"  id="Padres">
       <div className='hero is-small'>
         <div className='hero-body'>
