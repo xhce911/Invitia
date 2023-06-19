@@ -7,7 +7,7 @@ export default class ending extends Component {
         <div className='container is-fluid ptrn gifta' id={this.props.id}>
             <div className='hero is-medium has-text-centered'>
                 <div className='hero-body'>
-                    <h1 className='title is-1 pacific green'>Agradecemos su asistencia</h1>
+                    <h1 className=' is-1 pacific green'>Agradecemos su asistencia</h1>
                 </div>
             </div>
             <div className='columns has-text-centered'>

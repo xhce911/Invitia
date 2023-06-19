@@ -69,7 +69,7 @@ function App() {
         <div className='hero-body'>
             <div className='container has-text-centered'>
             <img src={Papas}  className='thumb'></img>
-                <h1 class="title pacific is-3 green">Mis Papis</h1>
+                <h1 class="pacific green ">Mis Papis</h1>
                 <br></br>
                 <h2 class="subtitle futura gray" >Sarai Rosario Ramírez Villatoro</h2>
                 <h3 className='my-2 is-2 '><b>&</b></h3>
@@ -87,7 +87,7 @@ function App() {
           <div className='hero-body'>
               <div className='container has-text-centered'>
                     <img src={Padrino} className='thumb mt-6'></img>
-                    <h2 class="title pacific mb-4 green">Padrino de presentación</h2>
+                    <h2 class=" pacific mb-4 green">Padrino de presentación</h2>
                     <h3 class="futura gray">Edgar Ulises Tapia Amezcua</h3>
               </div>
           </div>
@@ -101,7 +101,7 @@ function App() {
         <div className='hero-body'>
             <div className='container has-text-centered'>
             <img src={Padrinos} className='thumb' ></img>
-                <h1 class="title pacific is-3 green">Mis Padrinos</h1>
+                <h1 class=" pacific is-3 green">Mis Padrinos</h1>
                 <br></br>
                 <h2 class="subtitle futura gray">Guadalupe Mejía Galván</h2>
                 <h3 className='my-2 is-2 '><b>&</b></h3>

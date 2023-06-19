@@ -22,7 +22,9 @@ export default class gallery extends Component {
     return (
       <>
        <section className="hero ptrn is-fluid is-fullheight is-vcentered">
-            <div className="">
+            <div className="has-text-centered">
+              <h1 className="pacific is-size-1 gname ">Chaak Baltazar</h1>
+              <h4 className="pacific is-size-4 gname">Campanur Ramírez</h4>
             <Swiper
                 effect={"cards"}
                 grabCursor={true}

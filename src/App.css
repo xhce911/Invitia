@@ -111,6 +111,11 @@ html {
 }
 
 .green{
+  font-size: 30pt;
+  color: #2b9b4c;
+}
+
+.gname{
   color: #2b9b4c;
 }
 
@@ -124,7 +129,7 @@ backdrop-filter: blur(3.3px);
 }
 
 .gifta{
-  height: 100vh;
+  height: auto;
 }
 .cross{
   width: 100px;
@@ -163,4 +168,9 @@ backdrop-filter: blur(3.3px);
 #Confirmacion{
   height:  auto;
   width: 100%;
+}
+
+.liverpool{
+  background-color: #e10098;
+  color: #FFFF;
 }
