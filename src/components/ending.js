@@ -14,7 +14,9 @@ export default class ending extends Component {
                 <div className='column is-6'>
                     <h1 className='subtitle is-2 pacific green' >Confirmar asistencia</h1>
                     <h2 className='futura'>Confirmanos tu asistencia</h2>
-                    <a className='button is-primary my-4'  href='https://docs.google.com/forms/d/e/1FAIpQLSdKiMtTDtAiLicYr7VxEamemHky4CGXM79cBCTyDVSXexC6Pw/viewform?vc=0&c=0&w=1&flr=0&pli=1' target='_blank'>Confirmar</a>
+                    <a className='button is-primary my-4 mx-2'  href='https://docs.google.com/forms/d/e/1FAIpQLSdKiMtTDtAiLicYr7VxEamemHky4CGXM79cBCTyDVSXexC6Pw/viewform?vc=0&c=0&w=1&flr=0&pli=1' target='_blank'>Formulario</a>
+                    <a className='button is-primary my-4 mx-2'  href='https://wa.me/+5213121687512?text=Muchas%20gracias%20por%20la%20invitaci%C3%B3n%2C%20quiero%20confirmar%20la%20asistencia%20al%20bautizo.%20Mi%20nombre%20es%20_' target='_blank'>Envia un whatsapp</a>
+
                 </div>
                 <div className='column is-6'>
                     <h1 className='pacific is-2 subtitle green is-2'  >¡No Faltes!</h1>
