@@ -14,7 +14,7 @@ export default class ending extends Component {
                 <div className='column is-6'>
                     <h1 className='subtitle is-2 pacific green' >Confirmar asistencia</h1>
                     <h2 className='futura'>Confirmanos tu asistencia</h2>
-                    <a className='button is-primary my-4'  href='https://docs.google.com/forms/d/e/1FAIpQLSdKiMtTDtAiLicYr7VxEamemHky4CGXM79cBCTyDVSXexC6Pw/viewform?vc=0&c=0&w=1&flr=0&pli=1'>Confirmar</a>
+                    <a className='button is-primary my-4'  href='https://docs.google.com/forms/d/e/1FAIpQLSdKiMtTDtAiLicYr7VxEamemHky4CGXM79cBCTyDVSXexC6Pw/viewform?vc=0&c=0&w=1&flr=0&pli=1' target='_blank'>Confirmar</a>
                 </div>
                 <div className='column is-6'>
                     <h1 className='pacific is-2 subtitle green is-2'  >¡No Faltes!</h1>
