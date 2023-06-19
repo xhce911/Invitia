@@ -25,7 +25,7 @@ function App() {
     <>
     <section className="hero ptrn is-fullheight">
       <div className="hero-head">
-        <nav className="navbar is-fixed-top my-4">
+        <nav className="navbar my-4">
           <div className="container">
             <div className="navbar-brand">
               <a className="pacific green navbar-item hashtag" href="../">
