@@ -25,22 +25,16 @@ function App() {
     <>
     <section className="hero ptrn is-fullheight">
       <div className="hero-head">
-        <nav className="navbar my-4">
+        <nav className="navbar is-fixed-top my-4">
           <div className="container">
             <div className="navbar-brand">
               <a className="pacific green navbar-item hashtag" href="../">
                 #Baltachaak
               </a>
-              <span className="navbar-burger" data-target="navbarMenuHeroB">
-              </span>
-            </div>
-            <div id="navbarMenu" className="navbar">
-                <div className="navbar-end ">
-                  <span className='navbar-item'>
+              <span className='navbar-item'>
                     <audio src={Song} controls />
                   </span>
-                </div>
-              </div>
+             </div>
           </div>
         </nav>
       </div>
