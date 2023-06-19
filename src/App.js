@@ -1,6 +1,5 @@
 
 import './App.css';
-import  Photo from '../src/components/Photo';
 import Lugar from '../src/components/lugar';
 import Txt from '../src/assets/text.png';
 import Gift from '../src/components/gift';
@@ -12,7 +11,7 @@ import Papas from '../src/assets/Papas.png'
 import Padrinos from '../src/assets/Padrinos.png'
 import Padrino from '../src/assets/Padrino.png'
 import Gallery from '../src/components/gallery'
-
+import Song from '../src/assets/song.mp3'
 function App() {
 
   document.querySelectorAll('a[href^="#').forEach(anchor =>{
@@ -35,7 +34,13 @@ function App() {
               <span className="navbar-burger" data-target="navbarMenuHeroB">
               </span>
             </div>
-          
+            <div id="navbarMenu" className="navbar-menu">
+                <div className="navbar-end ">
+                  <span className='navbar-item'>
+                    <audio src={Song} controls />
+                  </span>
+                </div>
+              </div>
           </div>
         </nav>
       </div>
