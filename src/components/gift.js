@@ -18,8 +18,8 @@ export default class gift extends Component {
                   <div className='hero-body'>
                     <img alt='Mesa de Regalos' src={Icono} className='gift'></img>
                     <br></br>
-                    <a className='button is-info mx-2' href='https://www.sears.com.mx/Mesa-de-Regalos/77117/te-invito-a-mi-bautizo-chaak-balthazar' target='_blank' >Mesa de regalos SEARS</a>
-                    <a className='button liverpool mx-2' href='https://mesaderegalos.liverpool.com.mx/milistaderegalos/51232189' target='_blank' >Mesa de regalos LIVERPOOL</a>
+                    <a className='button  is-info mx-2 my-2' href='https://www.sears.com.mx/Mesa-de-Regalos/77117/te-invito-a-mi-bautizo-chaak-balthazar' target='_blank' >Mesa de regalos SEARS</a>
+                    <a className='button  liverpool mx-2 my-2' href='https://mesaderegalos.liverpool.com.mx/milistaderegalos/51232189' target='_blank' >Mesa de regalos LIVERPOOL</a>
                   </div>
                 </div>
               </div>
