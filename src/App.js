@@ -34,7 +34,7 @@ function App() {
               <span className="navbar-burger" data-target="navbarMenuHeroB">
               </span>
             </div>
-            <div id="navbarMenu" className="navbar-menu">
+            <div id="navbarMenu" className="navbar">
                 <div className="navbar-end ">
                   <span className='navbar-item'>
                     <audio src={Song} controls />
