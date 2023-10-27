@@ -22,7 +22,7 @@ export default class gift extends Component {
                     <br></br>
                     <img alt='Mesa de Regalos' src={Liverpool} className='liver'></img>
                     <br></br>
-                    <a className='button is-outlined  is-medium mx-2 my-2 liverlined ' href='https://mesaderegalos.liverpool.com.mx/milistaderegalos/51187301' target='_blank' >Mesa de regalos LIVERPOOL</a>
+                    <a className='button is-outlined  is-medium mx-2 my-2 liverlined ' href='https://mesaderegalos.liverpool.com.mx/milistaderegalos/51187310' target='_blank' >Mesa de regalos LIVERPOOL</a>
                   </div>
                 </div>
               </div>
@@ -41,7 +41,7 @@ export default class gift extends Component {
                             <div className='content'>
 
                               <b>Nombre:</b>
-                              <p>Francisco  Javier Rosiles Rincón</p>
+                              <p>Ivette Valladares Celis</p>
 
                               <b>Cuenta:</b>
                               <p>1157024992</p>

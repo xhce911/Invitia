@@ -14,7 +14,7 @@ export default class special extends Component {
             <div className='container has-text-centered'>
              
               <div className='columns'>
-                <div className='column is-half py-6'>
+                <div className='column is-half py-6  animate__animated  animate__fadeInDown'>
                   
                   <h1 class="tempting blue">Padres de la novia</h1>
                   <img src={Thumb} className='thumb'></img>
@@ -26,7 +26,7 @@ export default class special extends Component {
                   <br></br>
                   <hr class="content-divider mx-6"></hr> 
                 </div>
-                <div className='column is-half py-6'>
+                <div className='column is-half py-6 animate__animated  animate__fadeInDown'>
                   <h1 class="tempting blue ">Padres del novio</h1>
                   <img src={Thumb} className='thumb'></img>
                   <br></br>

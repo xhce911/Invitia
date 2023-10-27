@@ -21,8 +21,8 @@ function App() {
   
   return (
     <>
-      <nav className="navbar is-top barra">
-          <div className="container">
+      <nav className="navbar is-top barra glass">
+          <div className="container ">
             <div className="navbar-brand ">
               <a className="tempting blue navbar-item " href="../">
                 Yvette & Francisco
@@ -30,7 +30,7 @@ function App() {
              </div>
              <div className='navbar-end px-6'>
               <span className='navbar-item '>
-                      <audio controls autoplay >
+                      <audio controls autoplay className='player' >
                         <source src={Song} type='audio/mp3'></source>
                       </audio>
                   </span>

@@ -41,10 +41,10 @@ export default class cover extends Component {
   })
     return (
       <>
-       <section id="parallax-1" className="hero is-fullheight">
-        <div class="hero-body">
+       <section id="parallax-1" className="hero is-fullheight align-center" >
+        <div class="hero-body cover animate__animated animate__fadeInUp">
           <div class="container glass is-fluid is-desktop">
-            <div className="columns has-text-centered my-6">
+            <div className="columns has-text-centered">
               <div className='column is-full '>
                 <h1 className=' white tempting couple'>Ivette & Francisco</h1>
                 <i><h2 class="subtitle futura white">“Que tu corazón este confiado en mi, pues a donde quiera que tu vayas, yo voy … ”</h2></i>

@@ -59,11 +59,12 @@ html {
 }
 
 #parallax-1 {
-  background: url('../src/assets/Wedding/Assets/img4.jpeg');
+  background: url('../src/assets/Wedding/Assets/LDL_8345.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 #parallax-2 {
@@ -163,6 +164,11 @@ border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(3.3px);
 -webkit-backdrop-filter: blur(3.3px);
+
+}
+
+.cover{
+  padding: 30%;
 }
 
 .glass2{
@@ -181,6 +187,19 @@ backdrop-filter: blur(3.3px);
   
   min-height: 300px;
 }
+
+.giftb{
+  background-image: url('./assets/Wedding/Assets/Recurso-x.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  min-height: 300px;
+}
+
+
+
+
 .couple{
   font-size: 4em;
 }
@@ -252,7 +271,13 @@ audio::-webkit-media-controls-enclosure {
 }
 
 audio::-webkit-media-controls-panel{
-  color: #FFFF !important;
+  
+  width: 30% !important;
+}
+
+.player{
+  width: 120px;
+  filter: invert(50%);
 }
 
 #demo{
@@ -264,6 +289,10 @@ audio::-webkit-media-controls-panel{
 @media (max-width:900px) {
 
   /* your conditional / responsive CSS inside this condition */
+  .cover{
+    padding: 10%;
+  }
+
 
   .gifta{
       background-image: url('assets//Wedding/Assets/Recursoy.png');

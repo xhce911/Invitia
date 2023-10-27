@@ -20,7 +20,7 @@ export default class lugar extends Component {
                           Parroquia San Felipe de Jesús "El beaterio" <br></br> Av. Constitución 70, Centro, 28000 Colima
                       </p>
                       <b><p className='futura  py-3'>13:00 Hrs</p></b>
-                      <a href='https://maps.app.goo.gl/s7cXY3gvBcya7poV7' className='button is-outlined is-link is-medium blue' target='_blank'>Abrir en Google maps</a>
+                      <a href='https://maps.app.goo.gl/NpEcUBi6gdRaey9h9' className='button is-outlined is-link is-medium blue' target='_blank'>Abrir en Google maps</a>
                   </div>
                   <div className='column is-half gifta'>
                       <img src={Reception} alt='' className='thumb my-1'></img>
