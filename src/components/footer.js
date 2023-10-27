@@ -4,6 +4,7 @@ export default class footer extends Component {
   render() {
     return (
       <>
+      <div className='deco1'></div>
          <footer class="footer">
             <div class="content has-text-centered">
                 <p>

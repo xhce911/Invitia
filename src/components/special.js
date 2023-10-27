@@ -8,6 +8,7 @@ export default class special extends Component {
   render() {
     return (
       <>
+      <div className='deco1'></div>
         <section class="container glass is-fluid  my-6"  id="Padres">
       <div className='hero is-small'>
         <div className='hero-body'>
@@ -43,6 +44,7 @@ export default class special extends Component {
         </div>
       </div>
       </section>
+     
 
       <section class="container glass is-fluid  my-6"  id="Padres">
         <div className='hero is-small'>
@@ -79,6 +81,7 @@ export default class special extends Component {
           </div>
         </div>
       </section>
+      <div className='deco1'></div>
       </>
     )
   }
