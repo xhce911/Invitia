@@ -88,6 +88,27 @@ html {
   background-size: cover;
 }
 
+.photo1{
+background-image: url('assets/Wedding/Assets/img1.jpeg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.photo2{
+  background-image: url('assets/Wedding/Assets/Img2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  .photo3{
+    background-image: url('assets/Wedding/Assets/img3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
 .date{
   font-size: 30pt;
   font-weight: bold;
@@ -96,6 +117,12 @@ html {
 .locationimg{
   width: 200px;
   height: auto;
+}
+
+.ptrn{
+  background-image: url('./assets/Wedding/Assets/pttrn.jpg');
+  background-size: 5%;
+  
 }
 
 .imgbby{
@@ -137,7 +164,12 @@ backdrop-filter: blur(3.3px);
 }
 
 .gifta{
-  height: auto;
+  background-image: url('./assets/Wedding/Assets/Recurso-x.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  min-height: 300px;
 }
 .cross{
   width: 100px;
@@ -189,4 +221,30 @@ backdrop-filter: blur(3.3px);
 
 .liver{
   width: 40%;
+}
+
+audio::-webkit-media-controls-timeline,
+video::-webkit-media-controls-timeline {
+    display: none;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
+
+audio::-webkit-media-controls-enclosure {
+  background-color: transparent;
+}
+
+@media (max-width:900px) {
+
+  /* your conditional / responsive CSS inside this condition */
+
+  .gifta{
+      background-image: url('assets//Wedding/Assets/Recursoy.png');
+      background-size: contain;
+      
+  }
+
 }

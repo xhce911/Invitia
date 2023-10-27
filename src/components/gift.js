@@ -11,11 +11,11 @@ export default class gift extends Component {
   render() {
     return (
       <>
-        <div className='container is-fluid ptrn' id={this.props.id}>
-          <div className='container glass gifta  is-vcentered'>
+        <div className='container  is-fluid ' id={this.props.id}>
+          <div className='container  is-vcentered'>
             <div class="columns has-text-centered ">
               
-              <div class="column is-half " >
+              <div class="column is-half gifta " >
                 <div className='hero is-large'>
                   <div className='hero-body'>
                     <img alt='Mesa de Regalos' src={Icono} className='gift'></img>
@@ -27,7 +27,7 @@ export default class gift extends Component {
                 </div>
               </div>
 
-              <div class="column is-half">
+              <div class="column is-half gifta">
                 <div className='hero is-large'>
                     <div className='hero-body'>
                       <img src={Sobres} className='envelope' ></img>
