@@ -299,6 +299,10 @@ audio::-webkit-media-controls-panel{
       background-size: contain;
       
   }
+  .player{
+    width: 200px;
+    filter: invert(50%);
+  }
 
   .barra{
     color: white;
