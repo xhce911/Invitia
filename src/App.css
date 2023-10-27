@@ -8,7 +8,10 @@ html {
   width: 120px;
 }
 .thumb{
-  width: 250px;
+  width: 100px;
+}
+.thumb2{
+  width: 200px;
 }
 .gift{
   width:350px
@@ -16,6 +19,11 @@ html {
 
 .pacific{
   font-family: 'Pacifico';
+}
+
+.tempting{
+  font-family: "Tempting";
+  font-size: 3em;
 }
 
 .futura{
@@ -49,7 +57,7 @@ html {
 }
 
 #parallax-1 {
-  background: url('../src/assets/chaak/1_1.png');
+  background: url('../src/assets/Wedding/Assets/img4.jpeg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,7 +65,7 @@ html {
 }
 
 #parallax-2 {
-  background: url('../src/assets/chaak/2.jpeg');
+  background: url('#');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,7 +73,7 @@ html {
 }
 
 #parallax-3 {
-  background: url('../src/assets/chaak/3.jpeg');
+  background: url('#');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -73,7 +81,7 @@ html {
 }
 
 #parallax-4 {
-  background: url('../src/assets/chaak/4.jpeg');
+  background: url('#');
   background-attachment: fixed;
   background-position: left;
   background-repeat: no-repeat;
@@ -88,12 +96,6 @@ html {
 .locationimg{
   width: 200px;
   height: auto;
-}
-
-.ptrn{
-  background-image: url('../src/assets/pattern.png');
-  background-repeat: repeat;
-  background-size: 40%;
 }
 
 .imgbby{
@@ -113,11 +115,16 @@ html {
 
 .green{
   font-size: 30pt;
-  color: #2b9b4c;
+  color: #25347f;
+}
+
+.blue{
+  color: #25347f;
+  font-size: 20pt;
 }
 
 .gname{
-  color: #2b9b4c;
+  color: #25347f;
 }
 
 .glass{
@@ -174,4 +181,12 @@ backdrop-filter: blur(3.3px);
 .liverpool{
   background-color: #e10098;
   color: #FFFF;
+}
+
+.liverlined{
+  color:#e10098
+}
+
+.liver{
+  width: 40%;
 }

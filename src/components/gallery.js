@@ -28,7 +28,7 @@ export default class gallery extends Component {
             <Swiper
                 effect={"cards"}
                 grabCursor={true}
-                modules={[EffectCards]}
+                modules={[Pagination]}
                 className="mySwiper"
             >
                 <SwiperSlide></SwiperSlide>

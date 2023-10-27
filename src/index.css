@@ -1,11 +1,8 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
   overflow-x: hidden;
+ 
 }
 
 code {
@@ -37,52 +34,52 @@ code {
 
 
 .swiper-slide:nth-child(1n) {
-  background-image: url('../src/assets/chaak/1.jpeg');
+  background-image: url('#');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .swiper-slide:nth-child(2n) {
-  background-image: url('../src/assets/chaak/2.jpeg');
+  background-image: url('#');
   background-size: cover;
 }
 
 .swiper-slide:nth-child(3n) {
-  background-image: url('../src/assets/chaak/3.jpeg');
+  background-image: url('#');
   background-size: cover;
 }
 
 .swiper-slide:nth-child(4n) {
-  background-image: url('../src/assets/chaak/4.jpeg');
+  background-image: url('#');
   background-size: cover;
 }
 
 .swiper-slide:nth-child(5n) {
-  background-image: url('../src/assets/chaak/5.jpeg');
+  background-image: url('#');
   background-size: cover;
 }
 
 .swiper-slide:nth-child(6n) {
-  background-image: url('../src/assets/chaak/6.jpeg');
+  background-image: url('#');
   background-size: cover;
 }
 
 .swiper-slide:nth-child(7n) {
-  background-image: url('../src/assets/chaak/7.jpeg');
+  background-image: url('#');
   background-size: cover;
 }
 
 .swiper-slide:nth-child(8n) {
-  background-image: url('../src/assets/chaak/8.jpeg');
+  background-image: url('#');
   background-size: cover;
 }
 
 .swiper-slide:nth-child(9n) {
-  background-image: url('../src/assets/chaak/9.jpeg');
+  background-image: url('#');
   background-size: cover;
 }
 
 .swiper-slide:nth-child(10n) {
-  background-image: url('../src/assets/chaak/10.jpeg');
+  background-image: url('#g');
   background-size: cover;
 }

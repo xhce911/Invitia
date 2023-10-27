@@ -15,27 +15,27 @@ export default class ending extends Component {
                     <h1 className='subtitle is-2 pacific green' >Confirmar asistencia</h1>
                     <h2 className='futura'>Confirmanos tu asistencia</h2>
                     
-                    <a className='button is-primary my-4 mx-2'  href='https://wa.me/+5213121687512?text=Muchas%20gracias%20por%20la%20invitaci%C3%B3n%2C%20quiero%20confirmar%20la%20asistencia%20al%20bautizo.%20Mi%20nombre%20es%20_' target='_blank'>Envia un whatsapp</a>
+                    <a className='button  is-outlined is-success my-4 mx-2'  href='https://wa.me/+5213121687512?text=Muchas%20gracias%20por%20la%20invitaci%C3%B3n%2C%20quiero%20confirmar%20la%20asistencia%20al%20bautizo.%20Mi%20nombre%20es%20_' target='_blank'>Envia un whatsapp</a>
 
                 </div>
                 <div className='column is-6'>
                     <h1 className='pacific is-2 subtitle green is-2'  >¡No Faltes!</h1>
                     <h2 className='futura '>Agendalo en tu Google Calendar</h2>
-                    <a className='button is-secondary  is-primary my-4'  href='https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NG1jb2FhMDh0OTcwcXQ1NzM0aHBiYXFmNzcgeGhjZTkxMUBt&tmsrc=xhce911%40gmail.com' target='_blank'>Agregar a Calendar</a>
+                    <a className='button is-outlined is-link   my-4'  href='' target='_blank'>Agregar a Calendar</a>
                 </div>
             </div>
         </div>
         <section className='is-large has-text-centered ptrn'>
             <div className='hero-body glass'>
                 <h3 className='futura is-2 '>Usa el hashtag del evento</h3>
-                <h1 className='pacific green hashtag '>#Baltachaak</h1>
+                <h1 className='pacific green hashtag '>#IvetteYFrancisco</h1>
 
             </div>
         </section>
         <footer class="footer">
             <div class="content has-text-centered">
                 <p>
-                <strong>Invitia</strong> <a href="https://jgthms.com"></a>Todos los derechos reservados.
+                <strong>Chile Creativo</strong> <a href="https://jgthms.com"></a>Todos los derechos reservados.
                 </p>
             </div>
         </footer>
