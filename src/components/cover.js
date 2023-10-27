@@ -22,8 +22,8 @@ export default class cover extends Component {
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
         
       // Output the result in an element with id="demo"
-      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-      + minutes + "m " + seconds + "s ";
+      document.getElementById("demo").innerHTML = days + " días " + hours + " hrs. "
+      + minutes + " min. " + seconds + " seg. ";
         
       // If the count down is over, write some text 
       if (distance < 0) {
@@ -49,7 +49,7 @@ export default class cover extends Component {
                 <h1 className='title white tempting'>Ivette & Francisco</h1>
                 <i><h2 class="subtitle futura white">“Que tu corazón este confiado en mi, pues a donde quiera que tu vayas, yo voy … ”</h2></i>
                 <br></br>
-                 <b><p id='demo' className='futura white '></p></b>
+                 <b><p id='demo' className=' white '></p></b>
                  <img src={Fecha} className='thumb2'></img>
 
               </div>

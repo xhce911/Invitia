@@ -21,14 +21,14 @@ function App() {
   
   return (
     <>
-      <nav className="navbar is-fixed-top is-flex-touch is-align-self-center	">
+      <nav className="navbar is-fixed-top barra glass2">
           <div className="container">
             <div className="navbar-brand ">
-              <a className="tempting green navbar-item hashtag" href="../">
+              <a className="tempting white navbar-item hashtag" href="../">
                 Yvette & Francisco
               </a>
              </div>
-             <div className='navbar-end'>
+             <div className='navbar-end px-6'>
               <span className='navbar-item '>
                       <audio controls autoplay >
                         <source src={Song} type='audio/mp3'></source>

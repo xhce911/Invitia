@@ -1,26 +1,34 @@
 import React, { Component } from "react";
+import Photo1 from '../assets/Wedding/Assets/img1.jpeg'
+import Photo2 from '../assets/Wedding/Assets/img3.jpeg'
+import Photo3 from '../assets/Wedding/Assets/img4.jpeg'
+
 
 
 export default class Photo extends Component {
   render() {
     return (
-      <section
-        id={"parallax-" + this.props.number}
-        className="hero is-fullheight"
-      >
-        <div class="tile is-ancestor mx-6">
-          <div class="tile is-vertical is-8">
-            <div class="tile">
-              <div class="tile is-parent is-vertical photo1">
-              </div>
-            </div> 
-            <div class="tile my-2 is-parent photo2">
-             
+      <section className="hero is-fullheight">
+        <div className="hero-body  is-flex-direction-column	">
+          <div className="columns">
+            <div className="column is-half">
+              <figure className="image my-4">
+                <img src={Photo1}></img>
+              </figure>
+          
+              <figure className="image my-4">
+                <img src={Photo3}></img>
+              </figure>
             </div>
+            <div className="column is half">
+              <figure className="image ">
+                <img src={Photo2}></img>
+              </figure>
+            </div>
+
           </div>
-          <div class="tile mx-2 is-parent photo3">
-           
-          </div>
+            
+             
         </div>
       </section>
     );

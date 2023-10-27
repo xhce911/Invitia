@@ -163,6 +163,14 @@ backdrop-filter: blur(3.3px);
 -webkit-backdrop-filter: blur(3.3px);
 }
 
+.glass2{
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(110, 110, 110, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(2px);
+  }
+
 .gifta{
   background-image: url('./assets/Wedding/Assets/Recurso-x.png');
   background-size: contain;
@@ -237,6 +245,16 @@ audio::-webkit-media-controls-enclosure {
   background-color: transparent;
 }
 
+audio::-webkit-media-controls-panel{
+  color: #FFFF !important;
+}
+
+#demo{
+  font-size: 2.5em;
+}
+
+
+
 @media (max-width:900px) {
 
   /* your conditional / responsive CSS inside this condition */
@@ -245,6 +263,15 @@ audio::-webkit-media-controls-enclosure {
       background-image: url('assets//Wedding/Assets/Recursoy.png');
       background-size: contain;
       
+  }
+
+  .barra{
+    color: white;
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    padding: 10% 20% 0% 18%;
   }
 
 }
