@@ -285,7 +285,6 @@ audio::-webkit-media-controls-panel{
 
 .player{
   width: 120px;
-  filter: invert(50%);
 }
 
 #demo{
