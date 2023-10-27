@@ -13,7 +13,7 @@ import Special from './components/special';
 import Banner from './components/banner.js';
 import Footer from './components/footer';
 
-import 'https://kit.fontawesome.com/67ea4f2b34.js';
+
 
 
 
