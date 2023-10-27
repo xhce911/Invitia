@@ -16,7 +16,7 @@ export default class special extends Component {
               <div className='columns'>
                 <div className='column is-half py-6'>
                   
-                  <h1 class="tempting blue ">Padres de la novia</h1>
+                  <h1 class="tempting blue">Padres de la novia</h1>
                   <img src={Thumb} className='thumb'></img>
                   <br></br>
                   <h2 class="subtitle futura gray" >Elías Valladares Ochoa </h2>

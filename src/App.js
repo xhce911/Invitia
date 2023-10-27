@@ -21,10 +21,10 @@ function App() {
   
   return (
     <>
-      <nav className="navbar is-fixed-top barra glass2">
+      <nav className="navbar is-top barra">
           <div className="container">
             <div className="navbar-brand ">
-              <a className="tempting white navbar-item hashtag" href="../">
+              <a className="tempting blue navbar-item " href="../">
                 Yvette & Francisco
               </a>
              </div>
