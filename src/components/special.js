@@ -57,7 +57,7 @@ export default class special extends Component {
                   <div className='column is-half'>
                   <img src='' className='thumb'></img>
                   <br></br>
-                  <h2 class="subtitle futura gray" >Jose Ascención Muñiz</h2>
+                  <h2 class="subtitle futura gray" >José Asención García Muñiz</h2>
                   <h3 className='my-2 is-2 '><b>&</b></h3>
                   <h2 class="subtitle futura gray" >Laura Eugenia Rosiles Aguado </h2>
                   
