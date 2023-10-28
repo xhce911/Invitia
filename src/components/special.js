@@ -31,7 +31,7 @@ export default class special extends Component {
                   <h1 class="tempting blue ">Padres del novio</h1>
                   <img src={Thumb} className='thumb'></img>
                   <br></br>
-                  <h2 class="subtitle futura gray" > J. Jesús  Rosiles Aguado </h2>
+                  <h2 class="subtitle futura gray" ><i class="fa-solid fa-cross blue"></i> J. Jesús  Rosiles Aguado </h2>
                   <h3 className='my-2 is-2 '><b>&</b></h3>
                   <h2 class="subtitle futura gray" >Ma. Francisca Rincón  Venegas </h2>
                   

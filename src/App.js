@@ -25,7 +25,7 @@ function App() {
           <div className="container ">
             <div className="navbar-brand ">
               <a className="tempting blue navbar-item " href="../">
-                Yvette & Francisco
+                Ivette & Javier
               </a>
              </div>
              <div className='navbar-end px-4'>

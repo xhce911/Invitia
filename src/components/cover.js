@@ -46,7 +46,7 @@ export default class cover extends Component {
           <div class="container glass is-fluid is-desktop">
             <div className="columns has-text-centered">
               <div className='column is-full '>
-                <h1 className=' white tempting couple'>Ivette & Francisco</h1>
+                <h1 className=' white tempting couple'>Ivette & Javier</h1>
                 <i><h2 class="subtitle futura white">“Que tu corazón este confiado en mi, pues a donde quiera que tu vayas, yo voy … ”</h2></i>
                 <br></br>
                  <b><p id='demo' className=' white tempting'></p></b>
