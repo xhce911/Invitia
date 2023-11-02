@@ -31,7 +31,7 @@ export default class lugar extends Component {
                       <p class="subtitle futura mb-4" >
                         Jardín de Eventos La Felicidad
                       </p>
-                      <b><p className='futura mb-4 '>14:30 Hrs</p></b>
+                      <b><p className='futura mb-4 '>15:00 Hrs</p></b>
                       <a className='button my-4 is-medium is-outlined is-link blue' href='https://maps.app.goo.gl/fDZXDqxuqYuZjHFQ8' target='_blank'>Abrir en Google Maps </a>
                     </div>
                 </div>
