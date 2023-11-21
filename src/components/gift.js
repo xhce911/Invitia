@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Sobres from '../assets/Wedding/Assets/sobre.png'
-import Icono from '../assets/Wedding/Assets/Icono mesa de regalos.png'
-import Liverpool from '../assets/Wedding/Assets/Liverpool-e1647574271832.webp'
-import Banorte from '../assets/Wedding/Assets/Logo_de_Banorte.svg.png'
+import Sobres from '../assets/XV/SOBRE.png'
+import Icono from '../assets/XV/MESA.png'
+import Liverpool from '../assets/XV/LaMarina.png'
+import Banorte from '../assets/XV/Santander.png'
 
 
 
@@ -22,7 +22,7 @@ export default class gift extends Component {
                     <br></br>
                     <img alt='Mesa de Regalos' src={Liverpool} className='liver'></img>
                     <br></br>
-                    <a className='button is-outlined  is-medium mx-2 my-2 liverlined ' href='https://mesaderegalos.liverpool.com.mx/milistaderegalos/51187310' target='_blank' >Mesa de regalos LIVERPOOL</a>
+                    <a className='button is-outlined  is-medium mx-2 my-2 liverlined ' href='https://mesaderegalos.liverpool.com.mx/milistaderegalos/51187310' target='_blank' >Mesa de regalos La Marina</a>
                   </div>
                 </div>
               </div>
@@ -31,20 +31,17 @@ export default class gift extends Component {
                 <div className='hero is-large'>
                     <div className='hero-body'>
                       <img src={Sobres} className='envelope' ></img>
-                      <h1 class=" pacific is-1 green">Lluvia de sobres</h1>
-                        
+                      <h1 class=" pacific is-1 green py-2">Lluvia de sobres</h1>
                       <div className='card'>
-                          
-                          <h2 className='futura mt-2'>Datos bancarios</h2>
-                          <img alt='Mesa de Regalos' src={Banorte} className='liver mt-4'></img>
+                          <img alt='Mesa de Regalos' src={Banorte} className='bank'></img>
                           <div className='card-content'>
                             <div className='content'>
 
                               <b>Nombre:</b>
-                              <p>Ivette Valladares Celis</p>
+                              <p> Hector Hugo Hernandez Galvan</p>
 
                               <b>Cuenta:</b>
-                              <p>1157024992</p>
+                              <p>5579 1003 1817 8280</p>
                             </div>
                           </div>
                       </div>

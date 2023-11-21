@@ -27,10 +27,7 @@ export default class Photo extends Component {
             </div>
 
           </div>
-            
-             
         </div>
-        <div className='deco1'></div>
       </section>
     );
   }

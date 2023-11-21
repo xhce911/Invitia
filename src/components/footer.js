@@ -12,7 +12,7 @@ export default class footer extends Component {
                 </p>
             </div>
         </footer>
-        <div className='deco1'></div>
+        
       </>
     )
   }

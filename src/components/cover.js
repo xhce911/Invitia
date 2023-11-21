@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import Fecha from '../assets/Wedding/Assets/Fecha.png'
+import Fecha from '../assets/XV/fecha.png'
 
 export default class cover extends Component {
   render() {
     
-    var countDownDate = new Date("Dec 16, 2023 13:00:00").getTime();
+    var countDownDate = new Date("Dec 28, 2023 13:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -46,8 +46,8 @@ export default class cover extends Component {
           <div class="container glass is-fluid is-desktop">
             <div className="columns has-text-centered">
               <div className='column is-full '>
-                <h1 className=' white tempting couple'>Ivette & Javier</h1>
-                <i><h2 class="subtitle futura white">“Que tu corazón este confiado en mi, pues a donde quiera que tu vayas, yo voy … ”</h2></i>
+                <h1 className=' white tempting couple my-3'>Valeria Salomé Hernández Ruiz</h1>
+                <i><h2 class="subtitle futura white">“Acompañame a celebrar mis XV años”</h2></i>
                 <br></br>
                  <b><p id='demo' className=' white tempting'></p></b>
                  <img src={Fecha} className='thumb2'></img>
