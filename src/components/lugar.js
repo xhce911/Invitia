@@ -17,10 +17,10 @@ export default class lugar extends Component {
                         Ceremonia Religiosa
                       </p>
                       <p class="subtitle futura mt-4 white" >
-                          Parroquia San Francisco <br></br> Av. Maclovio Herrera 480, San Francisco, 28030 Colima
+                          Parroquia San Francisco <br></br> ndependencia s/n, Centro, 28970 Cdad. de Villa de Álvarez, Colima.
                       </p>
                       <b><p className='futura  py-3 white'>19:00 Hrs</p></b>
-                      <a href='https://maps.app.goo.gl/fDezARgZd7bU8App6' className='button is-outlined is-link is-medium blue' target='_blank'>Abrir en Google maps</a>
+                      <a href='https://maps.app.goo.gl/DoEEj8nhDd9CQVN87' className='button is-outlined is-link is-medium blue' target='_blank'>Abrir en Google maps</a>
                   </div>
                   <div className='column is-half gifta'>
                       <img src={Reception} alt='' className='thumb my-1'></img>

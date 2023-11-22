@@ -22,7 +22,7 @@ export default class gift extends Component {
                     <br></br>
                     <img alt='Mesa de Regalos' src={Liverpool} className='liver'></img>
                     <br></br>
-                    <a className='button is-outlined  is-medium mx-2 my-2 liverlined ' href='https://mesaderegalos.liverpool.com.mx/milistaderegalos/51187310' target='_blank' >Mesa de regalos La Marina</a>
+                    <a className='button is-outlined  is-medium mx-2 my-2 liverlined ' href='https://www.mesaderegalos.lamarina.com.mx/mesa-de-regalos/evento#SALOME-MIS-XV/eyJpZEV2ZW50byI6Ik1SLTAwMDAxNzk1IiwiZ3Vlc3QiOnRydWUsImlkQ2x1c3RlciI6MjcxN30=' target='_blank' >Mesa de regalos La Marina</a>
                   </div>
                 </div>
               </div>

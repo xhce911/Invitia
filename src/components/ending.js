@@ -12,7 +12,7 @@ export default class ending extends Component {
                     <div className='column  giftb py-6 '>
                         <h1 className='subtitle is-2 pacific green my-2' >Confirmar asistencia</h1>
                         <h2 className='futura white'>Confirmanos tu asistencia</h2>
-                        <a className='button  is-outlined is-success my-4 mx-2'  href='https://wa.me/+5213125931337?text=%22%C2%A1Qu%C3%A9%20emoci%C3%B3n%21%20Claro%20que%20s%C3%AD%2C%20estar%C3%A9%20ah%C3%AD%20para%20celebrar%20este%20d%C3%ADa%20tan%20especial%20contigo.%20%C2%A1Gracias%20por%20pensar%20en%20m%C3%AD%21%20' target='_blank'>Envia un whatsapp</a>
+                        <a className='button  is-outlined is-success my-4 mx-2'  href='#' target='_blank'>Envia un whatsapp</a>
                     </div>
                     
                 </div>
