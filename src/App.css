@@ -30,8 +30,9 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3
 .tempting{
   font-family: "Parisienne";
   font-weight: 800;
-  font-size: 2em;
+  font-size: 2.5em;
 }
+
 
 .futura{
   font-family: 'Futura Std', sans-serif;
@@ -64,7 +65,7 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3
 }
 
 #parallax-1 {
-  background-color: #25347f;
+  background-image: url('./assets/XV/BG.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -160,16 +161,17 @@ background-size: cover;
 
 .glass{
 /* From https://css.glass */
-background: rgba(255, 255, 255, 0.1);
+background: rgba(42, 42, 153, 0.7);
 border-radius: 0;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+box-shadow: 0 4px 30px rgba(0, 0, 0, .4);
 backdrop-filter: blur(3.3px);
 -webkit-backdrop-filter: blur(3.3px);
 
 }
 
 .cover{
-  padding: 30%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .glass2{
@@ -194,7 +196,6 @@ backdrop-filter: blur(3.3px);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  
   min-height: 300px;
 }
 

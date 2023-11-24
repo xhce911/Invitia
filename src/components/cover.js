@@ -45,7 +45,7 @@ export default class cover extends Component {
         <div class="hero-body cover animate__animated animate__fadeInUp">
           <div class="container glass is-fluid is-desktop">
             <div className="columns has-text-centered">
-              <div className='column is-full '>
+              <div className='column is-full presentation'>
                 <h1 className=' white tempting couple my-3'>Valeria Salomé Hernández Ruiz</h1>
                 <i><h2 class="subtitle futura white">“Acompañame a celebrar mis XV años”</h2></i>
                 <br></br>

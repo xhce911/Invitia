@@ -14,9 +14,7 @@ export default class ending extends Component {
                         <h2 className='futura white'>Confirmanos tu asistencia</h2>
                         <a className='button  is-outlined is-success my-4 mx-2'  href='#' target='_blank'>Envia un whatsapp</a>
                     </div>
-                    
                 </div>
-
                 </div>
             </div>
         </section>
