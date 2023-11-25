@@ -48,9 +48,9 @@ export default class special extends Component {
                     <img src={Thumb} className='thumb'></img>
                     <img src='' className='thumb'></img>
                     <br></br>
-                    <h2 class="subtitle futura white" >José Asención García Muñiz</h2>
+                    <h2 class="subtitle futura white" >Jesús Rafael Barajas Pineda</h2>
                     <h3 className='my-2 is-2 '><b>&</b></h3>
-                    <h2 class="subtitle futura white" >Laura Eugenia Rosiles Aguado </h2>
+                    <h2 class="subtitle futura white" >Elba Monserrate Ocón Bonales </h2>
                      <div className='deco1'></div>
 
                   </div>
