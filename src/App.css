@@ -7,8 +7,8 @@ html {
 }
 
 body{
-  background-color: #253149;
-background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+  background-color: rgba(22, 32, 99, 0.8);
+  background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
 }
 .logo{
   width: 120px;
@@ -161,7 +161,7 @@ background-size: cover;
 
 .glass{
 /* From https://css.glass */
-background: rgba(42, 42, 153, 0.7);
+background: rgba(26, 26, 156, 0.3);
 border-radius: 0;
 box-shadow: 0 4px 30px rgba(0, 0, 0, .4);
 backdrop-filter: blur(3.3px);
@@ -183,16 +183,16 @@ backdrop-filter: blur(3.3px);
   }
 
 .gifta{
-  
+  background-image: url('./assets/XV/Recurso-x.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   
-  min-height: 300px;
+  min-height: 380px;
 }
 
 .giftb{
-  
+  background-image: url('./assets/XV/Recursoy.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -200,12 +200,11 @@ backdrop-filter: blur(3.3px);
 }
 
 .deco1{
-
   background-image: url('./assets/XV/division.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
+  width: 350px;
   height: 25px;
 }
 
@@ -310,10 +309,16 @@ audio::-webkit-media-controls-panel{
 
 
   .gifta{
-      
+      background-image: url('./assets/XV/Recursoy.png');
       background-size: contain;
       
   }
+
+  .giftb{
+    background-image: url('./assets/XV/Recursoy.png');
+    background-size: contain;
+    
+}
 
   .player{
     width: 200px;

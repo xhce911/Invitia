@@ -11,7 +11,7 @@ export default class lugar extends Component {
         <div class="hero-body">
             <div class="container  has-text-centered ">
                 <div className='columns '>
-                  <div className='column is-half gifta'>
+                  <div className='column is-half gifta py-6'>
                   <img src={Iglesia} className='thumb' ></img>
                       <p class=" pacific green">
                         Ceremonia Religiosa
@@ -22,7 +22,7 @@ export default class lugar extends Component {
                       <b><p className='futura  py-3 white'>19:00 Hrs</p></b>
                       <a href='https://maps.app.goo.gl/DoEEj8nhDd9CQVN87' className='button is-outlined is-link is-medium blue' target='_blank'>Abrir en Google maps</a>
                   </div>
-                  <div className='column is-half gifta'>
+                  <div className='column is-half gifta py-6'>
                       <img src={Reception} alt='' className='thumb my-1'></img>
                       <p class=" pacific my-5 title-b green">
                           Recepción

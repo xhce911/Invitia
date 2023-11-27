@@ -15,7 +15,7 @@ export default class gift extends Component {
           <div className='container  is-vcentered'>
             <div class="columns has-text-centered ">
               
-              <div class="column is-half gifta " >
+              <div class="column is-half gifta py-6 " >
                 <div className='hero is-large'>
                   <div className='hero-body'>
                     <img alt='Mesa de Regalos' src={Icono} className='gift'></img>
@@ -27,17 +27,17 @@ export default class gift extends Component {
                 </div>
               </div>
 
-              <div class="column is-half gifta">
+              <div class="column is-half gifta py-6">
                 <div className='hero is-large'>
                     <div className='hero-body'>
                       <img src={Sobres} className='envelope' ></img>
                       <h1 class=" pacific is-1 green py-2">Lluvia de sobres</h1>
-                      <div className='card'>
+                      <div className=''>
                           <img alt='Mesa de Regalos' src={Banorte} className='bank'></img>
-                          <div className='card-content'>
-                            <div className='content'>
+                          <div className='py-5'>
+                            <div className='content white'>
 
-                              <b>Nombre:</b>
+                              <b >Nombre:</b>
                               <p> Hector Hugo Hernandez Galvan</p>
 
                               <b>Cuenta:</b>
