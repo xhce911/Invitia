@@ -17,7 +17,7 @@ export default class lugar extends Component {
                         Ceremonia Religiosa
                       </p>
                       <p class="subtitle futura mt-4 white" >
-                          Parroquia San Francisco <br></br> Independencia s/n, Centro, 28970,<br></br> Villa de Álvarez, Colima.
+                          Parroquia San Francisco de Asis<br></br> Independencia s/n, Centro, 28970,<br></br> Villa de Álvarez, Colima.
                       </p>
                       <b><p className='futura  py-3 white'>19:00 Hrs</p></b>
                       <a href='https://maps.app.goo.gl/DoEEj8nhDd9CQVN87' className='button is-outlined is-link is-medium blue' target='_blank'>Abrir en Google maps</a>
