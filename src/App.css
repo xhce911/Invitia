@@ -304,6 +304,10 @@ audio::-webkit-media-controls-panel{
 
 @media (max-width:900px) {
 
+  body{
+    background-size: contain;
+  }
+
   /* your conditional / responsive CSS inside this condition */
   .cover{
     padding: 10%;
@@ -311,13 +315,13 @@ audio::-webkit-media-controls-panel{
 
 
   .gifta{
-      background-image: url('./assets/XV/Recursoy.png');
+      background-image: url('./assets/BT/Recursoy.png');
       background-size: contain;
       
   }
 
   .giftb{
-    background-image: url('./assets/XV/Recursoy.png');
+    background-image: url('./assets/BT/Recursoy.png');
     background-size: contain;
     
 }
