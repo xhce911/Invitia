@@ -7,8 +7,9 @@ html {
 }
 
 body{
-  background-color: rgba(22, 32, 99, 0.8);
-  background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+  background-color: #fab6da;
+  background-image: url("https://www.transparenttextures.com/patterns/fresh-snow.png");
+
 }
 .logo{
   width: 120px;
@@ -40,7 +41,7 @@ body{
 }
 
 .white{
-  color:#FFFF;
+  color:#d16d94;
 }
 
 .gray{
@@ -65,7 +66,7 @@ body{
 }
 
 #parallax-1 {
-  background-image: url('./assets/XV/BG.jpg');
+  background-image: url('./assets/BT/bg.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -147,21 +148,22 @@ background-size: cover;
 
 .green{
   font-size: 30pt;
-  color: #DAA520;
+  color: #b23264;
 }
 
 .blue{
-  color: #DAA520;
+  color: #b23264;
   
 }
 
 .gname{
   color: #25347f;
+  
 }
 
 .glass{
 /* From https://css.glass */
-background: rgba(26, 26, 156, 0.3);
+background: rgba(250, 182, 218, 0.3);
 border-radius: 0;
 box-shadow: 0 4px 30px rgba(0, 0, 0, .4);
 backdrop-filter: blur(3.3px);
@@ -183,7 +185,7 @@ backdrop-filter: blur(3.3px);
   }
 
 .gifta{
-  background-image: url('./assets/XV/Recurso-x.png');
+  background-image: url('./assets/BT/Recurso-x.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -192,7 +194,7 @@ backdrop-filter: blur(3.3px);
 }
 
 .giftb{
-  background-image: url('./assets/XV/Recursoy.png');
+  background-image: url('./assets/BT/Recursoy.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -200,7 +202,7 @@ backdrop-filter: blur(3.3px);
 }
 
 .deco1{
-  background-image: url('./assets/XV/division.png');
+  background-image: url('./assets/BT/division.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

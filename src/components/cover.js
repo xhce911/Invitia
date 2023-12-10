@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Fecha from '../assets/XV/fecha.png'
+import Fecha from '../assets/BT/Fecha.png'
 
 export default class cover extends Component {
   render() {
@@ -45,11 +45,11 @@ export default class cover extends Component {
         <div class="hero-body cover animate__animated animate__fadeInUp">
           <div class="container glass is-fluid is-desktop">
             <div className="columns has-text-centered">
-              <div className='column is-full presentation'>
-                <h1 className=' white tempting couple my-3'>Valeria Salomé Hernández Ruiz</h1>
-                <i><h2 class="subtitle futura white">“Acompañame a celebrar mis XV años”</h2></i>
+              <div className='column is-full '>
+                <h1 className=' blue tempting couple my-3'>Alecita</h1>
+                <i><h2 class="subtitle futura white">“Acompañanos en esta gran celebración”</h2></i>
                 <br></br>
-                 <b><p id='demo' className=' white tempting'></p></b>
+                 <b><p id='demo' className=' blue tempting'></p></b>
                  <img src={Fecha} className='thumb2'></img>
 
               </div>

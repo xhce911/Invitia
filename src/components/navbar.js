@@ -10,14 +10,12 @@ export default class navbar extends Component {
         <div className="container ">
           <div className="navbar-brand ">
             <a className="tempting blue navbar-item " href="../">
-              Valeria XV
+              Alecita
             </a>
            </div>
            <div className='navbar-end px-4'>
             <span className='navbar-item '>
-                    <audio controls  className='player' autoplay>
-                      <source src={Song} type='audio/mp3'></source>
-                    </audio>
+                    
                 </span>
            </div>
         </div>
