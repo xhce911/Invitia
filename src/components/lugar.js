@@ -12,12 +12,12 @@ export default class lugar extends Component {
             <div class="container  has-text-centered ">
                 <div className='columns '>
                   <div className='column is-half gifta py-6'>
-                  <img src={Iglesia} className='thumb' ></img>
+                  <img src={Iglesia} className='thumb2' ></img>
                       <p class=" pacific green py-4">
                         Ceremonia Religiosa
                       </p>
                       <p class="subtitle futura mt-4 white" >
-                          Parroquia del espíritu santo<br></br> Felipe Sevilla del Río S/N, <br></br>Jardines Vista Hermosa III, 28017 Colima, Col.
+                          Parroquia del Espíritu Santo<br></br> Felipe Sevilla del Río S/N, <br></br>Jardines Vista Hermosa III, 28017 Colima, Col.
                       </p>
                       <b><p className='futura  py-3 white'></p></b>
                       <a href='https://maps.app.goo.gl/tPC9ZWyfwiLSfXyH8' className='button is-outlined  is-medium blue' target='_blank'>Abrir en Google maps</a>

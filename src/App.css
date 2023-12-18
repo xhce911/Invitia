@@ -10,7 +10,7 @@ body{
   background-color: #fab6da;
   background-image: url("https://www.transparenttextures.com/patterns/fresh-snow.png");
 
-}
+} 
 .logo{
   width: 120px;
 }
@@ -164,8 +164,8 @@ background-size: cover;
 .glass{
 /* From https://css.glass */
 background: rgba(250, 182, 218, 0.3);
-border-radius: 0;
-box-shadow: 0 4px 30px rgba(0, 0, 0, .4);
+border-radius: 8PX;
+box-shadow: 0 4px 30px rgba(0, 0, 0, .5);
 backdrop-filter: blur(3.3px);
 -webkit-backdrop-filter: blur(3.3px);
 
@@ -266,7 +266,7 @@ backdrop-filter: blur(3.3px);
 }
 
 .liver{
-  width: 60%;
+  width: 80%;
 }
 
 .bank{

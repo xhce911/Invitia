@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
-import Fecha from '../assets/BT/Fecha.png'
+import React, { Component } from 'react';
+import Fecha from '../assets/BT/Fecha.png';
+import Start from '../assets/BT/bautizo.png';
 
 export default class cover extends Component {
   render() {
@@ -46,6 +47,7 @@ export default class cover extends Component {
           <div class="container glass is-fluid is-desktop">
             <div className="columns has-text-centered">
               <div className='column is-full '>
+                <img src={Start} className='thumb2'></img>
                 <h1 className=' blue tempting couple my-3'>Alecita</h1>
                 <i><h2 class="subtitle futura white">“Acompañanos en esta gran celebración”</h2></i>
                 <br></br>

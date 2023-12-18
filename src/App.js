@@ -21,7 +21,6 @@ function App() {
   
   return (
     <>
-     <Navbar></Navbar>
      <Cover></Cover>
      <Special></Special>
      
