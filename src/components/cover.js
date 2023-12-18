@@ -5,7 +5,7 @@ import Start from '../assets/BT/bby.png';
 export default class cover extends Component {
   render() {
     
-    var countDownDate = new Date("Jan 13, 2023 13:00:00").getTime();
+    var countDownDate = new Date("Jan 13, 2024 13:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
