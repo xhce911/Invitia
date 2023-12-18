@@ -16,7 +16,7 @@ export default class special extends Component {
             <div className='container has-text-centered'>
              
               <div className='columns is-centered is-mobile'>
-                <div className='column gifta is-full py-6  animate__animated  animate__fadeInDown'>
+                <div className='column  card gifta  is-full py-6  animate__animated  animate__fadeInDown'>
                 <img src={Paps} className='thumb2'></img>
                   <h1 class="tempting blue">Mis Papis</h1> 
                   
@@ -43,7 +43,7 @@ export default class special extends Component {
           <div className='hero-body'>
               <div className='container has-text-centered'>
                 <div className='columns is-centered'>
-                  <div className='column py-6  is-full gifta'>
+                  <div className='column  card gifta py-6  is-full '>
                   <img src={PadrinoP} className='thumb2'></img>
                     <h1 class="tempting green pt-4">Padrino de <br></br>Presentación</h1>
                     <br></br>
@@ -62,7 +62,7 @@ export default class special extends Component {
           <div className='hero-body'>
               <div className='container has-text-centered'>
                 <div className='columns is-centered'>
-                  <div className='column py-6  is-full gifta'>
+                  <div className='column  card gifta py-6  is-full '>
                     <img src={Padrinos} className='thumb2'></img>
                     <h1 class="tempting green pt-4">Mis Padrinos <br></br> (Bautizo)</h1>
                     

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Fecha from '../assets/BT/Fecha.png';
-import Start from '../assets/BT/bautizo.png';
+import Start from '../assets/BT/bby.png';
 
 export default class cover extends Component {
   render() {
     
-    var countDownDate = new Date("Dec 28, 2023 13:00:00").getTime();
+    var countDownDate = new Date("Jan 13, 2023 13:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -48,7 +48,7 @@ export default class cover extends Component {
             <div className="columns has-text-centered">
               <div className='column is-full '>
                 <img src={Start} className='thumb2'></img>
-                <h1 className=' blue tempting couple my-3'>Alecita</h1>
+                <h1 className=' blue tempting couple my-3'> Alejandra Lourdes Avalos Ceballos</h1>
                 <i><h2 class="subtitle futura white">“Acompañanos en esta gran celebración”</h2></i>
                 <br></br>
                  <b><p id='demo' className=' blue tempting'></p></b>

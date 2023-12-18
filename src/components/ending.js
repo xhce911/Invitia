@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Bby from '../assets/BT/bby.png';
+import Bby from '../assets/BT/bby2.png';
 
 
 export default class ending extends Component {
@@ -12,7 +12,7 @@ export default class ending extends Component {
                 
                 <div className='columns'>
                     
-                    <div className='column  gifta py-6 is-full '>
+                    <div className='column card  py-6 is-full '>
                         <img src={Bby} className='thumb2'></img>
 
                         <h1 className=' is-1 pacific green my-6'>Agradecemos su asistencia</h1>
