@@ -22,7 +22,7 @@ export default class special extends Component {
                   
                 
                   <br></br>
-                  <br></br>
+      
                   <h2 class="subtitle futura white" >Jesús Avalos González </h2>
                   <img src={Thumb} className='thumb'></img>
                   <h2 class="subtitle futura white" >Alejandra Ceballos Villatoro </h2>
@@ -46,7 +46,7 @@ export default class special extends Component {
                   <div className='column  card gifta py-6  is-full '>
                   <img src={PadrinoP} className='thumb2'></img>
                     <h1 class="tempting green pt-4">Padrino de <br></br>Presentación</h1>
-                    <br></br>
+        
                     <img src={Thumb} className='thumb py-2'></img>
                     <h2 class="subtitle futura white" >Luis Alberto Avalos González</h2>
                   </div>
@@ -64,7 +64,7 @@ export default class special extends Component {
                 <div className='columns is-centered'>
                   <div className='column  card gifta py-6  is-full '>
                     <img src={Padrinos} className='thumb2'></img>
-                    <h1 class="tempting green pt-4">Mis Padrinos <br></br> (Bautizo)</h1>
+                    <h1 class="tempting green pt-4">Mis Padrinos </h1>
                     
                    
                     <br></br>

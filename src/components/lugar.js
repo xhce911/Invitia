@@ -29,7 +29,7 @@ export default class lugar extends Component {
                         </p>
                         
                       <p class="subtitle futura mb-4 white" >
-                        Recinto de la fiesta
+                        Recinto de la fiesta <br></br> Monte Sereno
                       </p>
                       <b><p className='futura mb-4 white '></p></b>
                       <a className='button my-4 is-medium is-outlined  blue' href='https://maps.app.goo.gl/Xvpe3PMh4DWsrEmQ6' target='_blank'>Abrir en Google Maps </a>
