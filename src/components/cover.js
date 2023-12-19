@@ -49,7 +49,7 @@ export default class cover extends Component {
               <div className='column is-full '>
                 <img src={Start} className='thumb2'></img>
                 <h1 className=' blue tempting couple my-3'> Alejandra Lourdes</h1>
-                <i><h2 class="subtitle futura white">“Acompañanos en esta gran celebración”</h2></i>
+                <i><h2 class="subtitle tempting white">Mi Bautizo</h2></i>
                 <br></br>
                  <b><p id='demo' className=' blue tempting'></p></b>
                  <img src={Fecha} className='thumb2'></img>

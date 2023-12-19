@@ -38,24 +38,6 @@ export default class special extends Component {
       </div>
       </section>
 
-      <section class="container  is-fluid  my-6 "  id="Padres">
-        <div className='hero is-small'>
-          <div className='hero-body'>
-              <div className='container has-text-centered'>
-                <div className='columns is-centered'>
-                  <div className='column  card gifta py-6  is-full '>
-                  <img src={PadrinoP} className='thumb2'></img>
-                    <h1 class="tempting green pt-4">Padrino de <br></br>Presentación</h1>
-        
-                    <img src={Thumb} className='thumb py-2'></img>
-                    <h2 class="subtitle futura white" >Luis Alberto Avalos González</h2>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-      </section>
-     
 
       <section class="container  is-fluid  my-6 "  id="Padres">
         <div className='hero is-small'>
@@ -73,6 +55,24 @@ export default class special extends Component {
                     <h2 class="subtitle futura white" >Virginia Alejandra Avalos Llamas</h2>
                      
 
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+     
+      <section class="container  is-fluid  my-6 "  id="Padres">
+        <div className='hero is-small'>
+          <div className='hero-body'>
+              <div className='container has-text-centered'>
+                <div className='columns is-centered'>
+                  <div className='column  card gifta py-6  is-full '>
+                  <img src={PadrinoP} className='thumb2'></img>
+                    <h1 class="tempting green pt-4">Padrino de <br></br>Presentación</h1>
+        
+                    <img src={Thumb} className='thumb py-2'></img>
+                    <h2 class="subtitle futura white" >Luis Alberto Avalos González</h2>
                   </div>
                 </div>
               </div>
