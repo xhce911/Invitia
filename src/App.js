@@ -21,13 +21,15 @@ function App() {
   
   return (
     <>
-     <Cover></Cover>
-     <Special></Special>
-     
-     <Lugar id="Lugar"></Lugar>
-     <Gift id="Regalos"></Gift>
-     <Ending id="Confirmacion"></Ending>
-     <Footer></Footer>
+      <Navbar />
+      <div className='container-full principal'>
+        <Cover></Cover>
+        <Special></Special>
+        <Lugar id="Lugar"></Lugar>
+        <Gift id="Regalos"></Gift>
+        <Ending id="Confirmacion"></Ending>
+        <Footer></Footer>
+      </div>
     </>
   );
 }

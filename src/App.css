@@ -276,11 +276,13 @@ backdrop-filter: blur(3.3px);
 audio::-webkit-media-controls-timeline,
 video::-webkit-media-controls-timeline {
     display: none;
+    
 }
 
 audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
     display: none;
+    
 }
 
 audio::-webkit-media-controls-enclosure {
@@ -289,7 +291,7 @@ audio::-webkit-media-controls-enclosure {
 
 audio::-webkit-media-controls-panel{
   
-  width: 30% !important;
+  width: 20% !important;
 }
 
 .player{
@@ -303,6 +305,10 @@ audio::-webkit-media-controls-panel{
 
 
 @media (max-width:900px) {
+
+  .principal{
+    
+  }
 
   body{
     background-size: contain;
@@ -347,5 +353,10 @@ audio::-webkit-media-controls-panel{
     width: 100%;
     height: 100px;
   } 
+
+  .navbar{
+   
+   
+   }
 
 }
