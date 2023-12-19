@@ -19,7 +19,8 @@ export default class ending extends Component {
                         <h1 className='subtitle is-2 pacific green mt-6' >Confirmar asistencia</h1>
 
                         <h2 className='futura white'>Confirmanos tu asistencia</h2>
-                        
+                        <a className='button  is-outlined white my-4 mx-2'  href='https://wa.me/+523121168789?text=Por%20favor%2C%20confirma%20si%20asistir%C3%A1s%20al%20evento%20para%20que%20podamos%20mantenerte%20informado%20sobre%20cualquier%20actualizaci%C3%B3n.' target='_blank'>Envia un whatsapp</a>
+
                         
                     </div>
                 </div>
