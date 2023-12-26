@@ -19,7 +19,7 @@ export default class lugar extends Component {
                       <p class="subtitle futura mt-4 white" >
                           Parroquia del Espíritu Santo<br></br> Felipe Sevilla del Río S/N, <br></br>Jardines Vista Hermosa III, 28017 Colima, Col.
                       </p>
-                      <b><p className='futura  py-3 white'></p></b>
+                      <b><p className='futura  py-3 white'>12:00 Hrs</p></b>
                       <a href='https://maps.app.goo.gl/tPC9ZWyfwiLSfXyH8' className='button is-outlined  is-medium blue' target='_blank'>Abrir en Google maps</a>
                   </div>
                   <div className='column is-half gifta py-6'>
@@ -31,7 +31,7 @@ export default class lugar extends Component {
                       <p class="subtitle futura mb-4 white" >
                         Recinto de la fiesta <br></br> Monte Sereno
                       </p>
-                      <b><p className='futura mb-4 white '></p></b>
+                      <b><p className='futura mb-4 white '>14:00 Hrs</p></b>
                       <a className='button my-4 is-medium is-outlined  blue' href='https://maps.app.goo.gl/Xvpe3PMh4DWsrEmQ6' target='_blank'>Abrir en Google Maps </a>
                     </div>
                 </div>
